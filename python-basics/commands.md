@@ -1,2 +1,3 @@
 print()- print text, variables and other types
 input() - input number, list, text ... 
+in - check for is this number or text in variables/list
