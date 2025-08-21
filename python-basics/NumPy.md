@@ -18,6 +18,7 @@
     print(*a)
     #Output:
     [1 2 3 4] [5 6 7 8] [ 9 10 11 12]
+## Data types in NumPy
 | Data Type | Description|
 |:-----------:|:------------:|
 |bool|True or False|
@@ -37,4 +38,27 @@
 |float32|8-bit exponent, 23-bit mantissa|
 |float64|11-bit exponent, 52-bit mantissa|
 |complex|complex128|
-  
+|complex64|complex number 32 bit, float|
+|complex128|complex number 64 bit, float|
+
+## Most important attributes:
+***a.ndim***-return count of  array dimensions  
+Return: 2 if two dimensional array / 1 if one dimensional array  
+
+***a.shape***-return tuple which show size of array in per dimension  
+Return: (3, 4) it mean that array has 3 rows and 4 columns  
+
+***a.dtype***-return type of elements in array  
+
+***a.itemsize***-return the size of max eliment in array
+If Array`s dtype is int32 this command will return 4, if float64 - 8
+
+***a.diagonal()***-return diagonal of matrix 
+
+***a.sum()***-return the sum of all elements
+
+***a.mean()***-return math avarage of all elements
+
+***a.min(), a.max()***-return max and min of elements
+
+***argmin(), argmax()***-return their indexs
