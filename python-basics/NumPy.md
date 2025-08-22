@@ -1,7 +1,4 @@
 # Introduction to NumPy
-<h3>✨ Добро пожаловать в NumPy!</h3>
-Это краткое руководство поможет вам начать работу с библиотекой <b>NumPy</b> для Python.
-</div>
 [Click](https://habr.com/ru/articles/768188/)
 ### How to download:
     pip install numpy
