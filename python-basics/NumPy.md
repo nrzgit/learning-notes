@@ -1,4 +1,5 @@
 # NumPy
+[Click](https://habr.com/ru/articles/768188/)
 ### How to download:
     pip install numpy
 ### How to connect library:
