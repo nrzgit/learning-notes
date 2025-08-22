@@ -46,4 +46,10 @@ The CPU tasks:
 + **Faster Clocks:**-the clock speed (measured in GHz, like 3.5 GHz) determines how many instructions the CPU can handle per second.
 + **Bigger Cache:***-more cache means the CPU can store more data close by, reducing wait times.
 + **Pipelining:**-this lets the CPU start working on the next instruction before finishing the current one, like a factory line.
-+ 
+
+ Advantage                     | Disadvantage                                                                 |
+|-------------------------------|------------------------------------------------------------------------------|
+| Versatile: Can handle all kinds of tasks, from math to running complex games. | Heat: CPUs get hot when working hard, so computers need fans or cooling systems to stay safe. |
+| Fast: Modern CPUs process billions of instructions per second.         | Power Use: Powerful CPUs use a lot of electricity, which can raise power bills.               |
+| Multi-tasking: Multi-core CPUs let you run many programs at once.      | Cost: High-performance CPUs, like Intel Core i9, can be expensive.                            |
+| Compatible: Work with tons of software, so you can use the same CPU for different apps. | Not Perfect for All Tasks: For graphics or video editing, specialized chips like GPUs are better than CPUs. |
