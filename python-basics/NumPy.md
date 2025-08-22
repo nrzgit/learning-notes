@@ -63,3 +63,37 @@ If Array`s dtype is int32 this command will return 4, if float64 - 8
 ***a.min(), a.max()***-return max and min of elements
 
 ***argmin(), argmax()***-return their indexs
+
+## Main function of NumPy:
+***np.zeros((n, m), type of data)***-make an array size n*m which filled with zeros
+
+***np.ones((n, m), type)***-make an array size n*m which filled with 1
+
+***np.empty((n, m), ...)***-return empty an array size n*m which filled with trash
+
+***np.copy(array)***-make copy of array
+
+***np.array(a, copy=True)***-simmilar
+
+***np.eye(n, data type)***-n is count of row and col where dioganal filled with 1 `
+
+***np.dot(a, b)***-the scalar multiplie of two arrays.Or **a.dot(b)**, **a & b**
+```
+import numpy as np
+a = np.array([[1, 2, 3, 4.0],
+[5, 6, 7, 8],
+[9, 10, 11, 12],
+[3, 4, 5, 6]])
+b = np.eye(4)
+print(np.dot(a, b))
+print(a.dot(b))
+print(a @ b)
+```
+Output:
+```
+[[1, 2, 3, 4.0],
+[5, 6, 7, 8],
+[9, 10, 11, 12],
+[3, 4, 5, 6]]
+```
+`By the way, I want to draw your attention to an interesting property of a unit matrix. When multiplied by it, the array does not change, as for example here, array a after multiplying by a unit matrix b does not change. This feature is used quite often, for example, in deep learning.`
