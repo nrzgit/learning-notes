@@ -5,10 +5,11 @@
 ### How to connect library:
     import numpy as np
 ### How to create array:
-    a = np.array([1, 2, 3, 4]) #One-dimensional array
-    a = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]) #Two-dimensional array
-    print(a[0]) #One-dimensional array Output: 1
-    print(a[1][2]) #Two-dimensional array Output: 7
+```python
+a = np.array([1, 2, 3, 4]) #One-dimensional array
+a = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]) #Two-dimensional array    print(a[0]) #One-dimensional array Output: 1
+print(a[1][2]) #Two-dimensional array Output: 7
+```
 `the type of dates must be one type(dtype)`
 ### How to print array:
     print(a) 
