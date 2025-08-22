@@ -79,7 +79,7 @@ If Array`s dtype is int32 this command will return 4, if float64 - 8
 
 ***np.dot(a, b)***-the scalar multiplie of two arrays.Or **a.dot(b)**, **a & b**
 
-```
+```python
 import numpy as np
 a = np.array([[1, 2, 3, 4.0],
 [5, 6, 7, 8],
