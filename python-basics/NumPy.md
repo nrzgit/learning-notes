@@ -1,8 +1,7 @@
-<div style="background-color:#e0f7fa; padding:12px; border-radius:8px; border: 1px solid #b2ebf2">
+# Introduction to NumPy
 <h3>✨ Добро пожаловать в NumPy!</h3>
 Это краткое руководство поможет вам начать работу с библиотекой <b>NumPy</b> для Python.
 </div>
-# Introduction to NumPy
 [Click](https://habr.com/ru/articles/768188/)
 ### How to download:
     pip install numpy
