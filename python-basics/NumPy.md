@@ -116,3 +116,17 @@ Output:
 | // | Integer division of arrays or array with a number |
 | ** | Exponentiation (either a number or an array is specified) |
 | %  | Calculations of the remainder of division (specify either a number or an array) |
+
+***np.unique()***-get all unique elements from the array
+
+## Sorting the NumPy array:
+***np.sort(a)***-it return sorted an array `array does not change`
+
+***np.argsort(a)***-returns an "array with indexes" indicating how the array was sorted
+
+## Features
+***np.random.random(n)***- return an array of float numbers in the range from 0.0 to 1.0
+
+***np.random.randint(0, 10, size=10)***-returns a random integer within the specified range. The third parameter size can be used to pass the length of the returned array. By default, it is 1
+
+***np.random.rand(n, m)***- takes two parameters as input and returns an array filled with random numbers of size n*m
