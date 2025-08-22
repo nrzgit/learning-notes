@@ -10,3 +10,5 @@ The CPU tasks:
 + Storing and retrieving information during tasks
   
 `Without a CPU, a computer wouldn’t know what to do.`
+
+![CPU Picture](https://github.com/nrzgit/learning-notes/blob/beabcdcb51107bebda5be27981fdab19f0ca11d2/computer-basics/CPU-Components-.webp)
