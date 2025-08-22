@@ -25,4 +25,25 @@ The CPU tasks:
 
 ### Functions of the CPU:
 
+![Functions of the CPU](https://github.com/nrzgit/learning-notes/blob/72fec142c0cb988c944ba757d5595ffff2a08626/computer-basics/functions_of_cpu.webp)
 
+***Fetch-Decode-Execute-Store***
+
++ **Fetch:**-the first CPU gets the instruction. That means binary numbers that are passed from RAM to CPU.  
++ **Decode**-when the instruction is entered into the CPU, it needs to decode the instructions. with the help of ALU(Arithmetic Logic Unit), the process of decoding begins.  
++ **Execute**-after the decode step the instructions are ready to execute(do)  
++ **Store**-after the execute step the instructions are ready to story in the memory
+
+### Types of CPUs:
+
++ **Single-Core CPU:** the oldest type. It can only handle one task at a time. Very slow for modern apps, games
++ **Dual-Core CPU:** two tasks at once, it is faster and better for multitasking, like listening to music while doing homework.
++ **Quad-Core CPU:** four cores, heavy tasks like video editing or playing modern games.
+
+### How does the CPU make computer faster?:
+
++ **Multiple Cores:**-many CPUs have multiple cores, which are like mini-CPUs that can work on different tasks at the same time. It’s like having several chefs in the kitchen instead of one.
++ **Faster Clocks:**-the clock speed (measured in GHz, like 3.5 GHz) determines how many instructions the CPU can handle per second.
++ **Bigger Cache:***-more cache means the CPU can store more data close by, reducing wait times.
++ **Pipelining:**-this lets the CPU start working on the next instruction before finishing the current one, like a factory line.
++ 
