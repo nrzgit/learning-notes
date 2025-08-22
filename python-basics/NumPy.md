@@ -1,4 +1,5 @@
 # Introduction to NumPy
+![NumPy Banner](https://img.shields.io/badge/NumPy-Data%20Science-blue?style=for-the-badge)
 [Click](https://habr.com/ru/articles/768188/)
 ### How to download:
     pip install numpy
