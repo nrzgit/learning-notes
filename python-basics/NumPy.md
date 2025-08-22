@@ -1,5 +1,4 @@
 # Introduction to NumPy
-![NumPy Banner](https://seeklogo.com/images/N/numpy-logo-479C24EC79-seeklogo.com.png)
 [Click](https://habr.com/ru/articles/768188/)
 ### How to download:
     pip install numpy
