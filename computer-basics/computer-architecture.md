@@ -7,5 +7,6 @@ The CPU tasks:
 + Doing math calculations
 + Running apps or games
 + Helping the keyboard, mouse, and screen work together
-+ Storing and retrieving information during tasks  
++ Storing and retrieving information during tasks
+  
 `Without a CPU, a computer wouldn’t know what to do.`
