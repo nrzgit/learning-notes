@@ -135,3 +135,127 @@ Output:
 
 ***np.arange(n, m, x)***-n-start, m-end, x-step.
 
+# Additional Useful NumPy Features for ML/AI Engineers
+
+Below are some highly useful NumPy functions for ML/AI engineers, with copy-paste ready Python code examples.
+
+---
+
+## 1. Advanced Indexing and Slicing
+
+```python
+import numpy as np
+a = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(a[0, :])         # First row
+print(a[:, 1])         # Second column
+print(a[a > 4])        # Elements greater than 4
+```
+
+---
+
+## 2. Broadcasting
+
+```python
+a = np.array([[1, 2, 3], [4, 5, 6]])
+b = np.array([1, 0, 1])
+print(a + b)   # Adds b to each row of a (broadcasting)
+```
+
+---
+
+## 3. Reshaping and Transposing
+
+```python
+a = np.arange(12)
+b = a.reshape(3, 4)    # Reshape to 3x4
+print(b)
+print(b.T)             # Transpose
+print(b.flatten())     # Flatten to 1D
+```
+
+---
+
+## 4. Linear Algebra (`numpy.linalg`)
+
+```python
+from numpy.linalg import inv, eig, svd, det
+
+A = np.array([[1, 2], [3, 4]])
+print(inv(A))          # Inverse
+vals, vecs = eig(A)    # Eigenvalues and eigenvectors
+print(vals, vecs)
+U, S, Vt = svd(A)      # SVD decomposition
+print(U, S, Vt)
+print(det(A))          # Determinant
+```
+
+---
+
+## 5. Statistics
+
+```python
+a = np.array([1, 2, 3, 4, 5])
+print(np.median(a))        # Median
+print(np.std(a))           # Standard deviation
+print(np.var(a))           # Variance
+print(np.percentile(a, 50))# 50th percentile
+print(np.cov(a))           # Covariance
+print(np.corrcoef(a))      # Correlation coefficient
+```
+
+---
+
+## 6. Stacking and Splitting
+
+```python
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+print(np.vstack([a, b]))      # Vertical stack
+print(np.hstack([a, b]))      # Horizontal stack
+c = np.array([[1, 2], [3, 4], [5, 6]])
+print(np.split(c, 3))         # Split into 3 arrays
+```
+
+---
+
+## 7. Saving and Loading Data
+
+```python
+a = np.array([[1, 2], [3, 4]])
+np.save('my_array.npy', a)        # Save to .npy file
+b = np.load('my_array.npy')       # Load from .npy file
+np.savetxt('my_array.txt', a)     # Save to .txt file
+c = np.loadtxt('my_array.txt')    # Load from .txt file
+```
+
+---
+
+## 8. Where and Conditional Logic
+
+```python
+a = np.array([1, 2, 3, 4, 5])
+b = np.where(a > 3, a, 0)         # Replace elements <=3 with 0
+print(b)
+```
+
+---
+
+## 9. Unique & Counting
+
+```python
+a = np.array([1, 2, 2, 3, 3, 3])
+print(np.unique(a))               # Unique values
+print(np.bincount(a))             # Count occurrences of each value
+print(np.count_nonzero(a == 3))   # Count elements equal to 3
+```
+
+---
+
+## 10. Advanced Random Sampling
+
+```python
+print(np.random.choice([1, 2, 3, 4], size=2)) # Randomly choose 2 elements
+a = np.arange(10)
+np.random.shuffle(a)                          # Shuffle array in-place
+print(a)
+```
