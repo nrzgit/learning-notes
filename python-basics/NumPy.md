@@ -130,3 +130,8 @@ Output:
 ***np.random.randint(0, 10, size=10)***-returns a random integer within the specified range. The third parameter size can be used to pass the length of the returned array. By default, it is 1
 
 ***np.random.rand(n, m)***- takes two parameters as input and returns an array filled with random numbers of size n*m
+
+***np.random.normal(n, m, size=(x, y))***-- returns a sample from a normal (Gaussian) distribution, where n is the "center" of the distribution, m is the deviation, and the tuple in the size parameter is the size of the returned array (x*y).
+
+***np.arange(n, m, x)***-n-start, m-end, x-step.
+
