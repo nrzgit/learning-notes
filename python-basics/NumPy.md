@@ -1,4 +1,5 @@
-# NumPy
+# Introduction to NumPy
+<span style="background-color: yellow;">This text has a yellow background.</span>
 [Click](https://habr.com/ru/articles/768188/)
 ### How to download:
     pip install numpy
@@ -78,6 +79,7 @@ If Array`s dtype is int32 this command will return 4, if float64 - 8
 ***np.eye(n, data type)***-n is count of row and col where dioganal filled with 1 `
 
 ***np.dot(a, b)***-the scalar multiplie of two arrays.Or **a.dot(b)**, **a & b**
+
 ```
 import numpy as np
 a = np.array([[1, 2, 3, 4.0],
@@ -97,3 +99,9 @@ Output:
 [3, 4, 5, 6]]
 ```
 `By the way, I want to draw your attention to an interesting property of a unit matrix. When multiplied by it, the array does not change, as for example here, array a after multiplying by a unit matrix b does not change. This feature is used quite often, for example, in deep learning.`
+
+***np.prod(a)***-multiply all the elements in the array
+
+***np.sin(), np.cos(), np.tan()***, etc. - will return a sine, cosine, tangent, etc., respectively. They can be applied to a single number or to an array with any number of dimensions
+
+***np.sqrt()***-returns the square root of a number or array in parentheses
