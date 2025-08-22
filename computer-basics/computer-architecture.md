@@ -1,5 +1,5 @@
 # It is introduction to computer architecture
-## CPU
+## CPU:
 ***Central Processing Unit***-brain of a computer.  
 CPU is usually placed in a special slot called a **socket** on the computers **motherboard**.  
 `Motherboard-is the main circuit board that connects all the parts of a computer.`  
@@ -11,7 +11,7 @@ The CPU tasks:
   
 `Without a CPU, a computer wouldn’t know what to do.`
 
-### Main components of CPU
+### Main components of CPU:
 
 ![CPU Picture](https://github.com/nrzgit/learning-notes/blob/beabcdcb51107bebda5be27981fdab19f0ca11d2/computer-basics/CPU-Components-.webp)
 
@@ -23,4 +23,6 @@ The CPU tasks:
 
 + ***Memory Unit***-the memory unit stores data and instructions. Older CPUs used registers, but modern ones also have fast cache memory. The CPU fetches data from RAM, ROM, or hard disks and stores it in registers or cache during tasks.
 
-###
+### Functions of the CPU:
+
+
