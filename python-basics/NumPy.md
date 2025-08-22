@@ -1,5 +1,4 @@
 # Introduction to NumPy
-<span style="background-color: yellow;">Ab</span>
 [Click](https://habr.com/ru/articles/768188/)
 ### How to download:
     pip install numpy
