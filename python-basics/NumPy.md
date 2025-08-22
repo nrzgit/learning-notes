@@ -106,3 +106,13 @@ Output:
 ***np.sin(), np.cos(), np.tan()***, etc. - will return a sine, cosine, tangent, etc., respectively. They can be applied to a single number or to an array with any number of dimensions
 
 ***np.sqrt()***-returns the square root of a number or array in parentheses
+
+| Operation | Description |
+|:---------:|:-----------|
+| +  | Adding arrays or an array with a number |
+| -  | Subtracting arrays or an array with a number, or used as a unary minus |
+| *  | Multiplication of arrays or array with a number |
+| /  | Dividing arrays or arrays with a number |
+| // | Integer division of arrays or array with a number |
+| ** | Exponentiation (either a number or an array is specified) |
+| %  | Calculations of the remainder of division (specify either a number or an array) |
