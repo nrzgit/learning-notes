@@ -46,6 +46,8 @@ a = np.arange(number) #array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 |complex128|complex number 64 bit, float|
 
 ## Most important attributes:
+`axis-axis=0 by col axis=1 by row`  
+
 ***a.ndim***-return count of  array dimensions  
 Return: 2 if two dimensional array / 1 if one dimensional array  
 
@@ -66,6 +68,8 @@ If Array`s dtype is int32 this command will return 4, if float64 - 8
 ***a.min(), a.max()***-return max and min of elements
 
 ***argmin(), argmax()***-return their indexs
+
+***np.std(a)***-standart deviation
 
 ## Main function of NumPy:
 ***np.zeros((n, m), type of data)***-make an array size n*m which filled with zeros
