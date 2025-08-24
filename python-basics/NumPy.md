@@ -47,7 +47,10 @@ a = np.arange(number) #array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 
 ## Most important attributes:
 `axis-axis=0 by col axis=1 by row`  
-
+**flatten** in NumPy is a method that returns a copy of the array collapsed into one dimension.
+Example:  
+`a.flatten()`  
+This will return a 1D array containing all the elements of `a`.
 ***a.ndim***-return count of  array dimensions  
 Return: 2 if two dimensional array / 1 if one dimensional array  
 
