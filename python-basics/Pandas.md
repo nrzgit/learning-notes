@@ -52,15 +52,21 @@ df = pd.read_csv('/content/Internet Speed 2022.csv')
 ***df.dtypes()***-print dtype of csv
 `object`-string and mixed types
 
-***df.describe()***-print:
-+`count`-it filled row in each col
-+`mean`-it avarage value
-+`std`-standart deviation
-+`min` and `max`
-+`25%`, `50%`, `70%`-percentile
+***df.describe()***-print:  
++`count`-it filled row in each col  
++`mean`-it avarage value  
++`std`-standart deviation  
++`min` and `max`  
++`25%`, `50%`, `70%`-percentile  
 
-***df.sort_values(name of col, ascending=(from big to small - False, from small to big - True))
+***df.sort_values(name of col, ascending=(from big to small - False, from small to big - True))***
 
 `NaN` - no datas
 
 ***df.dropna()***-delete rows which fill NaN
+
+***df.shape()**-return count of rows and cols
+
+***df.columns***-return names of cols
+
+***df.head(count)***-output first count of df
