@@ -70,3 +70,43 @@ df = pd.read_csv('/content/Internet Speed 2022.csv')
 ***df.columns***-return names of cols
 
 ***df.head(count)***-output first count of df
+
+***df.loc(row[it can be name of row col], return value)***-one of the primary ways to select data from a DataFrame. It is label-based, which means you have to specify the name of the rows or columns to select data. loc is label-based.
+
+```students.loc[students['student_id'] == 101, ['name', 'age']]```
+
+Output:
+
+name	| age
+
+Ulysses	 | 13
+
+***df[name of col]** - to contact with col 
+
+```employees['bonus'] = employees['salary'] * 2``` - adding new col with value
+
+***df..drop_duplicates()***-remove duplicate rows from a DataFrame.  
+    Certain columns: **df.drop_duplicates(subset=[name of col])**.  
+    **Keep**: df.drop_duplicates(keep='last'). 'last'-delete last duplicate, 'first'-first duplicate, "False"-drop all items  
+    ***df.drop_duplicates(inplace=True)***
+
+***df.dropna()***-axis: axis=0 -> drop rows(default), axis=1 -> drop cols.  
+**df.dropna(how='all')**-Drop rows only if all values are missing.  
+**df.dropna(subset=['A'])**-Drop rows if certain columns have missing values.  
+**df.dropna(inplace=True)**-Drop missing values in place.  
+**df_clean = df.dropna(thresh=2)**-You can specify a threshold of non-null values required to keep a row:
+
+
+***df.fillna()***-replace missing values (NaN or None).  
+```df_ffill = df.fillna(method='ffill')```-This fills missing values with the previous non-null value in the column.  
+```df_bfill = df.fillna(method='bfill')```-This fills missing values with the next non-null value.
+```df.fillna(method='ffill', limit=1)```-→ Only fills one consecutive NaN per column.
+```
+df['A'] = df['A'].fillna(df['A'].mean())   # mean
+# or
+df['A'] = df['A'].fillna(df['A'].median()) # median
+# or
+df['A'] = df['A'].fillna(df['A'].mode()[0]) # mode
+```
+
+
