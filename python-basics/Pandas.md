@@ -109,4 +109,17 @@ df['A'] = df['A'].fillna(df['A'].median()) # median
 df['A'] = df['A'].fillna(df['A'].mode()[0]) # mode
 ```
 
+***df.rename(columns={'A': 'B', 'D': 'C'})***
+***df_renamed = df.rename(index={0: 'first', 1: 'second'})***  
+```
+# Add prefix to all column names
+df = df.rename(columns=lambda x: 'col_' + x)
 
+# Uppercase all column names
+df = df.rename(columns=str.upper)
+```
+```
+df.columns = ['X', 'Y']  # direct assignment
+# or equivalently
+df = df.set_axis(['X', 'Y'], axis=1)
+```
